@@ -5,6 +5,7 @@
         <Money/>
         <Reward/>
         <Insurance/>
+        <Product/>
     </div>
 </template>
 
@@ -14,13 +15,15 @@
   import Money from './money.vue'
   import Reward from './reward.vue'
   import Insurance from './insurance.vue'
+  import Product from './product.vue'
   export default {
     components: {
       Heador,
       hSlider,
       Money,
       Reward,
-      Insurance
+      Insurance,
+      Product
     }
   }
 </script>

@@ -53,7 +53,7 @@
           img {
             width: 100%;
             display: block;
-            height: 314px;
+            height: 300px;
             border: 1px solid #fafafa;
           }
         }
@@ -70,6 +70,7 @@
       >span {
         color: #bbb;
         position: absolute;
+        right: 0;
       }
     }
     @include panel;
