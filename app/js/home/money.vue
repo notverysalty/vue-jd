@@ -1,5 +1,5 @@
 <template>
-  <Panel :cname="$style.content" :title="title">
+  <Panel :cname="$style.content" style="margin: 0;" :title="title">
     <div :class="$style.chunk"> 
       <div :class="$style.item" v-for="item in arr" :key="item.id">
         <p :class="$style.title">
@@ -56,7 +56,8 @@
 
 <style lang="scss" module>
   .content {
-    h4 {
+    overflow: hidden;
+    >h4 {
       font-weight: 700;
     }
     .chunk{
