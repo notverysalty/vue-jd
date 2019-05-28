@@ -1,14 +1,14 @@
 <template>
   <Panel :class="$style.panel" style="margin: 0">
     <section :class="$style.content">
-      <Slider :items="mItems" :cname="$style.silder"></Slider>
+      <Silder :items="mItems" :cname="$style.silder"></Silder>
     </section>
   </Panel>
 </template>
 
 <script>
   import Panel from '../core/panel.vue'
-  import Slider from '../core/silder.vue'
+  import Silder from '../core/silder.vue'
   export default {
     data() {
       return {
@@ -37,7 +37,7 @@
     },
     components: {
       Panel,
-      Slider
+      Silder
     }
   }
 </script>
@@ -58,7 +58,7 @@
       display: none;
     }
     .content {
-      .slider {
+      .silder {
         margin-top: 100px;
         img {
           width: 100%;
