@@ -75,7 +75,7 @@
 <style lang="scss" module>
   @import '../../css/element.scss';
   .slider {
-    margin-top: 120px;
+    margin-top: 100px;
     img {
       width: 100%;
     }
