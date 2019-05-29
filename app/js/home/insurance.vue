@@ -1,5 +1,5 @@
 <template>
-  <Panel :cname="$style.insurance" title="保险保障">
+  <Panel :cname="$style.insurance" title="-保险保障-">
     <section :class="$style.content">
       <Slider :options="options" :items="items" cname="insurance-slider"></Slider>
     </section>

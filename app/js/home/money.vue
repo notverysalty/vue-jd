@@ -18,7 +18,7 @@
   export default {
     data() {
       return {
-        title: '理财精选',
+        title: '-理财精选-',
         arr: [
           {
             id: 1,

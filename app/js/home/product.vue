@@ -1,5 +1,5 @@
 <template>
-  <Panel :cname="$style.product" title="众筹新品" arraw="更多尖货>">
+  <Panel :cname="$style.product" title="-众筹新品-" arraw="更多尖货>">
     <section :class="$style.content">
       <Slider :options="options" :items="items" cname="product-slider"></Slider>
     </section>

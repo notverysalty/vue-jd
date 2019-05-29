@@ -1,5 +1,5 @@
 <template>
-  <Panel :cname="$style.reward" title="赏金任务" arraw="查看更多任务>">
+  <Panel :cname="$style.reward" title="-赏金任务-" arraw="查看更多任务>">
     <section :class="$style.content">
       <Slider :options="options" :items="items" cname="reward-slider"></Slider>
     </section>
