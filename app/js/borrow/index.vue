@@ -2,6 +2,8 @@
     <div :class="$style.container">
         <Heador/>
         <Bsilder/>
+        <Acir/>
+        <Boutique/>
         <myFooter/>
         <Navbar/>
     </div>
@@ -10,6 +12,8 @@
 <script>
   import Heador from '../public/header.vue'
   import Bsilder from './bsilder.vue'
+  import Acir from './acir.vue'
+  import Boutique from './boutique.vue'
   import myFooter from '../public/footer.vue'
   import Navbar from '../public/navbar.vue'
   export default {
@@ -20,6 +24,8 @@
     components: {
       Heador,
       Bsilder,
+      Acir,
+      Boutique,
       myFooter,
       Navbar
     }

@@ -1,12 +1,21 @@
 <template>
-  <section class="footer">
+  <section :class="[footer,cname]">
     <img :src="img.src">
   </section>
 </template>
 
 <script>
   export default {
+    data() {
+      return {
+        footer: 'footer'
+      }
+    },
     props: {
+      cname: {
+        type: String,
+        default: ''
+      },
       img: {
         type: Object,
         default() {

@@ -9,7 +9,7 @@
         </p>
         <p :class="$style.txt3">立即登录</p>
       </div>
-      <Silder :cname="$style.silder" :items="items"></Silder>
+      <Silder :cname="$style.silder" :items="items" :options="options"></Silder>
     </section>
   </Panel>  
 </template>
@@ -31,7 +31,19 @@
             href: 'home',
             src: 'https://img12.360buyimg.com/jrpmobile/jfs/t1/21509/20/4531/39775/5c33281eE7e0635bb/6a8c62f841f035a7.png?width=1080&height=240'
           }
-        ]
+        ],
+        options: {
+          autoplay: {
+            delay: 600
+          },
+          loop: true,
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+              type: "bullets"
+          },
+          speed: 2000,
+        }
       }
     },
     components: {
