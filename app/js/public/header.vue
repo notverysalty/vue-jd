@@ -19,8 +19,8 @@
 <style lang="scss" module>
   .header {
     color: #666;
-    height: 100px;
-    line-height: 100px;
+    height: 99px;
+    line-height: 99px;
     position: fixed;
     top: 0;
     left: 0;
@@ -29,6 +29,7 @@
     background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center center no-repeat;
     background-size: auto 50%;
     z-index: 100;
+    border-bottom: 1px solid #ccc;
     .left {
       font-size: 28px;
       height: 30px;

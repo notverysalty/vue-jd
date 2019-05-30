@@ -20,13 +20,13 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'home'}">
+        <router-link :to="{ name: 'save'}">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t1/3358/38/14064/816/5bda5cabEcb7eca8b/9bb064f1cda7ceba.png?width=60&height=60">
           <p>省钱</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'home'}">
+        <router-link :to="{ name: 'member'}">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t1/7491/15/4277/926/5bda5cb9E421a0e60/89ee14ce9daf4aab.png?width=60&height=60">
           <p>金融会员</p>
         </router-link>
@@ -65,6 +65,11 @@
       li {
         text-align: center;
         a {
+          &[class*=router-link-exact-active]{
+            p {
+              color: orange;
+            }
+          }
           text-decoration: none;
         }
         img {
